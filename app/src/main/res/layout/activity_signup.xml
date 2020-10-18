@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bhanta"
+    android:id="@+id/relative"
+    tools:context=".Activities.Signup"
+
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative2"
+        android:padding="20dp"
+
+        ><LinearLayout
+        android:id="@+id/liner2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+
+        android:layout_marginTop="100dp"
+
+        >
+
+        <EditText
+
+            android:id="@+id/firstname1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:background="@drawable/customtextfield"
+            android:ems="10"
+            android:hint="Frist Name"
+            android:inputType="textPersonName"
+
+            android:padding="10dp" />
+
+
+        <EditText
+
+
+            android:id="@+id/lastname1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/customtextfield"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+    </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liner2"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customtextfield"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+
+            />
+
+
+        <EditText
+            android:id="@+id/typepass"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/user_email"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customtextfield"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/confirm_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/typepass"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customtextfield"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/confirm_pass"
+            android:text="Continue"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:background="@drawable/custombutton2"
+            android:id="@+id/btn_conti"
+            />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/linearl"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+
+
+
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn1"
+            android:text="login"
+
+
+            android:background="@android:color/holo_blue_bright"
+            />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Sign up"
+            android:background="@android:color/holo_blue_bright"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

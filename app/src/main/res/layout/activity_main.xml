@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/liner"
+    android:orientation="vertical"
+    tools:context=".Activities.MainActivity"
+    android:gravity="bottom"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/toilet_logo"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        />
+
+
+    <LinearLayout
+
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+        android:background="@color/white"
+     >
+
+        <Button
+
+            android:id="@+id/login"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:ems="10"
+            android:fontFamily="sans-serif-light"
+
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/Signup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="100dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_button"
+            android:ems="10"
+            android:fontFamily="sans-serif-light"
+            android:text="SIGN UP" />
+
+</LinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34e1eb</color>
+    <color name="colorPrimaryDark">#34e1eb</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="button_color">#34e1eb</color>
+    <color name="white">#ffffff</color>
+    <color name="button_color_2">#2bb6cf</color>
+    <color name="yuta"  >#03000000</color>
+
+
+
+
+    <color name="bhanta">#2A2E43</color>
+    <color name="darkBlue">#1f61f0</color>
+
+</resources>

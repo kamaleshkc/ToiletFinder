@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" About this Application."
+        android:textSize="25dp"
+
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This android is created by Kamalesh Kc as a college project. Its still in Beta version. you will have to wait for it's release to use it fully. "
+
+        android:textSize="20dp"
+        android:layout_below="@+id/txt1"
+
+        />
+
+
+</RelativeLayout>
